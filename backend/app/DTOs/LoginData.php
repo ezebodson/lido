@@ -8,8 +8,7 @@ final readonly class LoginData
         public string $email,
         public string $password,
         public ?string $deviceName,
-    ) {
-    }
+    ) {}
 
     public static function fromArray(array $data): self
     {
